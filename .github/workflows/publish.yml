@@ -14,9 +14,11 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "20"
-      - run: ls -la
+      - run: pwd && ls -la
       - run: npm ci
       - run: npm test
       - uses: JS-DevTools/npm-publish@v3
         with:
+          access: public
+          package: ./packages/react
           token: ${{ secrets.NPM_TOKEN }}
