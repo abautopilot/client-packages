@@ -1,5 +1,5 @@
 {
-  "name": "abautopilot-react",
+  "name": "@abautopilot/client-react",
   "version": "0.1.0",
   "description": "put your ab testing on autopilot",
   "main": "dist/index.cjs.js",
@@ -12,7 +12,7 @@
     "test-watch": "vitest",
     "test:ui": "vitest --ui"
   },
-  "author": "",
+  "author": "Will Fowler",
   "license": "ISC",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.5.0",
